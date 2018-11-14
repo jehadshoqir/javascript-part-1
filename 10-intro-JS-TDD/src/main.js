@@ -1,15 +1,12 @@
 module.exports = add;
 
 function add(a, b) {
-    /*
+if(isANumber(a) && number(b){
 
-      Write some code here !!!
+    return a+b;
 
-     */
-    return null; // This can be deleted as well ;)
 }
-
-
+else { return 0;}}
 /*
    Utilities functions (just for helping)
  */
