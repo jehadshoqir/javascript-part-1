@@ -1,15 +1,22 @@
 module.exports = add;
 
 function add(a, b) {
-if(isANumber(a) && number(b){
-
-    return a+b;
-
+    if (isANumber(a) && isANumber(b)) {
+        return a + b;
+    }
+    else if (isANumber(a)) {
+        return a;
+    }
+    else if (isANumber(b)) {
+        return b;
+    }
+    else
+        return 0; // This can be deleted as well :wink:
 }
-else { return 0;}}
+
 /*
-   Utilities functions (just for helping)
- */
+  Utilities functions (just for helping)
+*/
 
 // OBS: this is quite a ugly helper method: DELETE ME!
 function isUndefined(x) {
